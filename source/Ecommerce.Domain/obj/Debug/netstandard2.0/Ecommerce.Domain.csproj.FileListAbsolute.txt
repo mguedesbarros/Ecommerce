@@ -1,0 +1,9 @@
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/bin/Debug/netstandard2.0/Ecommerce.Domain.deps.json
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/bin/Debug/netstandard2.0/Ecommerce.Domain.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/bin/Debug/netstandard2.0/Ecommerce.Domain.pdb
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/obj/Debug/netstandard2.0/Ecommerce.Domain.csproj.CoreCompileInputs.cache
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/obj/Debug/netstandard2.0/Ecommerce.Domain.AssemblyInfoInputs.cache
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/obj/Debug/netstandard2.0/Ecommerce.Domain.AssemblyInfo.cs
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/obj/Debug/netstandard2.0/Ecommerce.Domain.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/obj/Debug/netstandard2.0/Ecommerce.Domain.pdb
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Domain/obj/Debug/netstandard2.0/Ecommerce.Domain.csprojAssemblyReference.cache

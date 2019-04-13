@@ -1,0 +1,16 @@
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Infra.IoC.deps.json
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Infra.IoC.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Infra.IoC.pdb
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Application.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Domain.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Infra.Data.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Application.pdb
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Domain.pdb
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/bin/Debug/netstandard2.0/Ecommerce.Infra.Data.pdb
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.csprojAssemblyReference.cache
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.csproj.CoreCompileInputs.cache
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.AssemblyInfoInputs.cache
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.AssemblyInfo.cs
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.csproj.CopyComplete
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.dll
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Infra.IoC/obj/Debug/netstandard2.0/Ecommerce.Infra.IoC.pdb
