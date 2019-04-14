@@ -34,10 +34,15 @@ function Consultar() {
             swal({
                 type: 'error',
                 title: 'Oops...',
-                text: 'Não foi possível consultar'
+                text: 'Não foi possível consultar',
+                showConfirmButton: true
             });
         }
     });
+
+
+
+
 }
 
 function Adicionar() {
@@ -45,14 +50,17 @@ function Adicionar() {
     var res = Validacao();
     if (res == false) {
         return false;
-    }
+}
+
+    
+
     var ProdutoJson = {
         Id: 0,
         Nome: $('#txtNome').val(),
         Tipo: $("#selTipo option:selected").text(),
         Tamanho: $("#selTamanho option:selected").text(),
         Quantidade: $('#txtQuantidade').val(),
-        Valor: $('#txtValor').val(),
+        Valor: $('#txtValor').val().toString().replace('.','').replace(',','.'),
         Descricao: $('#txtDescricao').val()
     };
 
@@ -75,7 +83,7 @@ function Adicionar() {
                 swal({
                     type: 'success',
                     title: 'Produto adicionado com sucesso',
-                    showConfirmButton: false
+                    showConfirmButton: true
                 });
 
                 LimparCampos();
@@ -84,14 +92,17 @@ function Adicionar() {
                 swal({
                     type: 'error',
                     title: 'Oops...',
-                    text: 'Não foi possível adicionar o produto'
+                    text: 'Não foi possível adicionar o produto',
+                    showConfirmButton: true
                 });
         },
         error: function (errormessage) {
             swal({
                 type: 'error',
                 title: 'Oops...',
-                text: 'Não foi possível adicionar o produto'
+                text: 'Não foi possível adicionar o produto',
+                showConfirmButton: true
+
             });
         }
     });
@@ -114,8 +125,8 @@ function GetDadosProduto(id, detalhe) {
         success: function (result) {
             $('#Id').val(result.id);
             $('#txtNome').val(result.nome);
-            $('#selTipo option:selected').text(result.tipo);
-            $('#selTamanho option:selected').text(result.tamanho);
+            $('#selTipo').val(result.tipo);
+            $('#selTamanho').val(result.tamanho);
             $('#txtQuantidade').val(result.quantidade);
             $('#txtValor').val(result.valor);
             $('#txtDescricao').val(result.descricao);
@@ -160,7 +171,6 @@ function GetDadosProduto(id, detalhe) {
    
 }
 
-
 function Atualizar() {
     var res = Validacao();
     if (res == false) {
@@ -190,13 +200,14 @@ function Atualizar() {
                 swal({
                     type: 'success',
                     title: 'Produto atualizado com sucesso',
-                    showConfirmButton: false
+                    showConfirmButton: true
                 })
             else
                 swal({
                     type: 'error',
                     title: 'Oops...',
-                    text: 'Não foi possível atualizar o Produto'
+                    text: 'Não foi possível atualizar o Produto',
+                    showConfirmButton: true
                 });
 
 
@@ -246,20 +257,22 @@ function Deletar(Id) {
                         swal({
                             type: 'success',
                             title: 'Produto excluído com sucesso',
-                            showConfirmButton: false
+                            showConfirmButton: true
                         })
                     else
                         swal({
                             type: 'error',
                             title: 'Oops...',
-                            text: 'Não foi possível excluir o Produto'
+                            text: 'Não foi possível excluir o Produto',
+                            showConfirmButton: true
                         });
                 },
                 error: function (errormessage) {
                     swal({
                         type: 'error',
                         title: 'Oops...',
-                        text: 'Não foi possível excluir o Produto'
+                        text: 'Não foi possível excluir o Produto',
+                        showConfirmButton: true
                     });
                 }
             });
@@ -301,7 +314,7 @@ function Validacao() {
         $('#txtNome').css('border-color', 'lightgrey');
     }
 
-    if ($('#selTipo').val().trim() == "") {
+    if ($("#selTipo option:selected").text().trim() == "") {
         $('#selTipo').css('border-color', 'Red');
         isValid = false;
     }
@@ -309,7 +322,7 @@ function Validacao() {
         $('#selTipo').css('border-color', 'lightgrey');
     }
 
-    if ($('#selTamanho').val().trim() == "") {
+    if ($("#selTamanho option:selected").text() == "") {
         $('#selTamanho').css('border-color', 'Red');
         isValid = false;
     }

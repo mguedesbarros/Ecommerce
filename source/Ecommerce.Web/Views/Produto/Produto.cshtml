@@ -20,11 +20,11 @@
                 <h2>Produtos</h2>
             </div>
             <div class="card-body">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAddOrEdit" onclick="LimparCampos();">Adicionar Produto</button><br /><br />
+                <a href="#" class="btn" style="background-color:#144b87;color:white;border-color:#144b87" data-toggle="modal" data-target="#modalAddOrEdit" onclick="LimparCampos()"><i class="fa fa-plus"></i> Adicionar</a>
                 <hr />
                 <div class="container">
                     <div class="table-responsive-lg">
-                        <table class="table ">
+                        <table class="table" id="tblProdutos">
                             <thead class="thead-light">
                                 <tr>
                                     <th scope="col">
@@ -51,45 +51,8 @@
                             <tbody class="tbody"></tbody>
                         </table>
                     </div>
-                    @*<div class="row">
-                        <div class"col-lg-12">
-                            <div class="ibox float-e-margins">
-                                <div class="ibox-content">
-                                    <table class="table table-bordered">
-                                        <thead class="thead-light">
-                                            <tr>
-                                                <th scope="col">
-                                                    Nome
-                                                </th>
-                                                <th scope="col">
-                                                    Tipo
-                                                </th>
-                                                <th scope="col">
-                                                    Tamanho
-                                                </th>
-                                                <th scope="col">
-                                                    Quantidade
-                                                </th>
-                                                <th scope="col">
-                                                    Valor
-                                                </th>
-                                                <th scope="col">
-                                                    Descrição
-                                                </th>
-                                                <th scope="col"></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="tbody"></tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>*@
                 </div>
-
-
             </div>
-
         </div>
     </fieldset>
 
@@ -110,10 +73,10 @@
                                 <div class="form-group col-md-6">
                                     <label id="lblTipo">Tipo</label>
                                     <select class="form-control" id="selTipo">
-                                        <option></option>
-                                        <option>Blusa</option>
-                                        <option>Calça</option>
-                                        <option>Camiseta</option>
+                                        <option value=""></option>
+                                        <option value="Blusa">Blusa</option>
+                                        <option value="Calça">Calça</option>
+                                        <option value="Camiseta">Camiseta</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -125,10 +88,10 @@
                                 <div class="form-group col-md-4">
                                     <label id="lblTamanho">Tamanho</label>
                                     <select class="form-control" id="selTamanho">
-                                        <option></option>
-                                        <option>P</option>
-                                        <option>M</option>
-                                        <option>G</option>
+                                        <option value=""></option>
+                                        <option value="P">P</option>
+                                        <option value="M">M</option>
+                                        <option value="G">G</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4">
@@ -178,21 +141,6 @@
         border-bottom: none;*/
     }
 </style>
-<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
-<script type="text/javascript">var jQuery_resizeble = $.noConflict(true);
-    jQuery_resizeble('.modal-content').resizable({
-        //alsoResize: ".modal-dialog",
-        minHeight: 300,
-        minWidth: 300
-    });
-    jQuery_resizeble('.modal-dialog').draggable();
-
-    jQuery_resizeble('#modalViewOrEdit1').on('show.bs.modal', function () {
-        $(this).find('.modal-body').css({
-            'max-height': '100%'
-        });
-    });</script>
-
-@*<script src="~/lib/jquery/dist/jquery.mask.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.mask.min.js"></script>
 <script type="text/javascript">var jQuery_mask = $.noConflict(true);
-    jQuery_mask('#txtValor').mask('#.##0,00', { reverse: true });</script>*@
+    jQuery_mask('#txtValor').mask('#.##0,00', { reverse: true });</script>
