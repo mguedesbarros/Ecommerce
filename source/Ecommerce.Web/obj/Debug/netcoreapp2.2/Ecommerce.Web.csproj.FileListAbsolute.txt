@@ -14,7 +14,6 @@
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Ecommerce.Web.TagHelpers.output.cache
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Ecommerce.Web.RazorCoreGenerate.cache
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
-/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Razor/Views/Produto/Produto.g.cshtml.cs
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
@@ -28,4 +27,3 @@
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Ecommerce.Web.dll
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Ecommerce.Web.pdb
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Ecommerce.Web.csproj.CopyComplete
-/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Web/obj/Debug/netcoreapp2.2/Ecommerce.Web.csprojAssemblyReference.cache

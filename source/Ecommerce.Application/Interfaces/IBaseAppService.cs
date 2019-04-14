@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Ecommerce.Domain.Validation;
+using FluentValidation.Results;
 
 namespace Ecommerce.Application.Interfaces
 {
@@ -10,6 +10,11 @@ namespace Ecommerce.Application.Interfaces
         ValidationResult Add(TEntity entity);
         ValidationResult Update(TEntity entity);
         ValidationResult Delete(TEntity entity);
+
+        //TEntity Add<V>(TEntity entity) where V : AbstractValidator<TEntity>;
+        //TEntity Update<V>(TEntity entity) where V : AbstractValidator<TEntity>;
+        //TEntity Delete<V>(TEntity entity) where V : AbstractValidator<TEntity>;
+
         TEntity GetById(int id);
         IEnumerable<TEntity> GetAll();
     }

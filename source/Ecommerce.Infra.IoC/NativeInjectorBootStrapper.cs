@@ -3,13 +3,12 @@ using Ecommerce.Application.Interfaces;
 using Ecommerce.Application.Services;
 using Ecommerce.Domain.Interfaces.Repositories;
 using Ecommerce.Domain.Interfaces.Services;
-using Ecommerce.Domain.Interfaces.Validation;
 using Ecommerce.Domain.Services;
-using Ecommerce.Domain.Validation;
 using Ecommerce.Infra.Data.Context;
 using Ecommerce.Infra.Data.Context.Interfaces;
 using Ecommerce.Infra.Data.Repositories;
 using Ecommerce.Infra.Data.UnitOfWork;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 

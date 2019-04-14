@@ -6,8 +6,10 @@ using Ecommerce.Application.Interfaces;
 using Ecommerce.Application.ViewModel;
 using Ecommerce.Domain.Entities;
 using Ecommerce.Domain.Interfaces.Services;
-using Ecommerce.Domain.Validation;
+using Ecommerce.Domain.Validators;
 using Ecommerce.Infra.Data.Context.Interfaces;
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace Ecommerce.Application.Services
 {
@@ -28,10 +30,10 @@ namespace Ecommerce.Application.Services
 
             _uow.BeginTransaction();
 
-            ValidationResult.Add(_service.Add(produto));
+            var validationResult = _service.Add<ProdutoValidator>(produto);
 
-            if (ValidationResult.IsValid) _uow.Commit();
-            return ValidationResult;
+            if (validationResult.IsValid) _uow.Commit();
+            return validationResult;
 
         }
 
@@ -41,10 +43,11 @@ namespace Ecommerce.Application.Services
 
             _uow.BeginTransaction();
 
-            ValidationResult.Add(_service.Delete(produto));
+            var validationResult = _service.Delete<ProdutoExclusaoValidador>(produto);
 
-            if (ValidationResult.IsValid) _uow.Commit();
-            return ValidationResult;
+            if (validationResult.IsValid) _uow.Commit();
+            return validationResult;
+            
         }
 
         public IEnumerable<ProdutoViewModel> GetAll()
@@ -63,10 +66,10 @@ namespace Ecommerce.Application.Services
 
             _uow.BeginTransaction();
 
-            ValidationResult.Add(_service.Update(produto));
+            var validationResult = _service.Update<ProdutoValidator>(produto);
 
-            if (ValidationResult.IsValid) _uow.Commit();
-            return ValidationResult;
+            if (validationResult.IsValid) _uow.Commit();
+            return validationResult;
         }
     }
 }

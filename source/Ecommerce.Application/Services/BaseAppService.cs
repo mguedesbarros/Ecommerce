@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Ecommerce.Application.Interfaces;
-using Ecommerce.Domain.Validation;
 using Ecommerce.Infra.Data.Context.Interfaces;
+using FluentValidation.Results;
 
 namespace Ecommerce.Application.Services
 {

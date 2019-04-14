@@ -182,7 +182,7 @@ function Atualizar() {
         Tipo: $("#selTipo option:selected").text(),
         Tamanho: $("#selTamanho option:selected").text(),
         Quantidade: $('#txtQuantidade').val(),
-        Valor: $('#txtValor').val(),
+        Valor: $('#txtValor').val().toString().replace('.','').replace(',','.'),
         Descricao: $('#txtDescricao').val()
     };
     $.ajax({

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Ecommerce.Domain.Entities;
 using Ecommerce.Domain.Interfaces.Repositories;
 using Ecommerce.Infra.Data.Context;
 using Ecommerce.Infra.Data.UnitOfWork;
@@ -8,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Ecommerce.Infra.Data.Repositories
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity>
-        where TEntity : class
+        where TEntity : BaseEntity
     {
         protected readonly EcommerceContext context;
         protected readonly DbSet<TEntity> dbSet;

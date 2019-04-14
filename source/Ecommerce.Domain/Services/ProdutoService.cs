@@ -2,7 +2,8 @@
 using Ecommerce.Domain.Entities;
 using Ecommerce.Domain.Interfaces.Repositories;
 using Ecommerce.Domain.Interfaces.Services;
-using Ecommerce.Domain.Validation;
+using FluentValidation.Results;
+//using Ecommerce.Domain.Validation;
 
 namespace Ecommerce.Domain.Services
 {

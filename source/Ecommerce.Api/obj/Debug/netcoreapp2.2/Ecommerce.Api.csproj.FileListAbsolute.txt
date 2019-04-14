@@ -1,3 +1,4 @@
+/Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Api/bin/Debug/netcoreapp2.2/Ecommerce.Api.xml
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Api/bin/Debug/netcoreapp2.2/Ecommerce.Api.deps.json
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Api/bin/Debug/netcoreapp2.2/Ecommerce.Api.runtimeconfig.json
 /Users/marceloguedes/Documents/Projetos/Loja/Ecommerce/source/Ecommerce.Api/bin/Debug/netcoreapp2.2/Ecommerce.Api.runtimeconfig.dev.json
