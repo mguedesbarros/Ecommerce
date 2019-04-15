@@ -72,53 +72,5 @@ namespace Ecommerce.Domain.Services
 
             return validator.Validate(entity);
         }
-
-        //public ValidationResult Add(TEntity entity) where V : AbstractValidator<TEntity>
-        //{
-        //    if (!ValidationResult.IsValid)
-        //        return ValidationResult;
-
-        //    var selfValidationEntity = entity as ISelfValidation;
-        //    if (selfValidationEntity != null && !selfValidationEntity.IsValid)
-        //        return selfValidationEntity.ValidationResult;
-
-        //    baseRepository.Add(entity);
-
-        //    return validationResult;
-        //}
-
-        //public ValidationResult Delete(TEntity entity)
-        //{
-        //    if (!ValidationResult.IsValid)
-        //        return ValidationResult;
-
-        //    baseRepository.Delete(entity);
-
-        //    return validationResult;
-        //}
-
-        //public IEnumerable<TEntity> GetAll()
-        //{
-        //    return baseRepository.GetAll();
-        //}
-
-        //public TEntity GetById(int id)
-        //{
-        //    return baseRepository.GetById(id);
-        //}
-
-        //public ValidationResult Update(TEntity entity)
-        //{
-        //    if (!ValidationResult.IsValid)
-        //        return ValidationResult;
-
-        //    var selfValidationEntity = entity as ISelfValidation;
-        //    if (selfValidationEntity != null && !selfValidationEntity.IsValid)
-        //        return selfValidationEntity.ValidationResult;
-
-        //    baseRepository.Update(entity);
-
-        //    return validationResult;
-        //}
     }
 }
