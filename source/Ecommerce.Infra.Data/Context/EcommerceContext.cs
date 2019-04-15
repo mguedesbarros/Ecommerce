@@ -26,8 +26,8 @@ namespace Ecommerce.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ProdutoMap());
-            //modelBuilder.ApplyConfiguration(new ProductMap());
-            //modelBuilder.ApplyConfiguration(new ClientProductMap());
+           
+            
 
             base.OnModelCreating(modelBuilder);
         }
