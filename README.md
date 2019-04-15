@@ -1,6 +1,6 @@
 # Ecommerce - Projeto de Teste para Europ
 
-Projeto Ecommerce - DDD + .NET CORE 2.2 + EF INMEMORY + UNITOFWORK + AUTOMAPPER + IOC + FLUENTVALIDATION
+Projeto Ecommerce - DDD + .NET CORE 2.2 + EF CORE/INMEMORY + UNITOFWORK + AUTOMAPPER + IOC + FLUENTVALIDATION + SWAGGER
 
 
 Baixar o projeto.
